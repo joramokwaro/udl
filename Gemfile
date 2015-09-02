@@ -44,7 +44,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-rescue'
   gem 'capistrano', '~> 2.15.5'
-  gem 'rvm-capistrano'
+  gem 'rvm-capistrano', require: false
 end
 
 group :development do
